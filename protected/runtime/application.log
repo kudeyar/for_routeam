@@ -1070,3 +1070,27 @@ Stack trace:
 REQUEST_URI=/index.php
 in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
 in /var/www/yiistart/blog/index.php (13)
+2015/08/28 18:25:18 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 18:25:47 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)

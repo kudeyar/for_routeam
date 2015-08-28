@@ -117,15 +117,19 @@ class EventController extends Controller {
     public function actionIndex() {
         $dataProvider = new CActiveDataProvider('Event');
         $model = new Event('search');
-//        $modelCreate = new Event();
+        $modelCreate = new Event();
         $model->unsetAttributes();  // clear any default values
-        
+        $modelCreate->unsetAttributes();
         if (isset($_GET['Event'])) {
             $model->attributes = $_GET['Event'];
         }
         if (isset($_POST['Event'])) {
-            $model->attributes = $_POST['Event'];
-            $model->save();           
+            $modelCreate->attributes = $_POST['Event'];
+            $modelCreate->save();
+            $this->render('index', array(
+                'dataProvider' => $dataProvider,
+                'model' => $modelCreare,
+            ));
         }
         $this->render('index', array(
             'dataProvider' => $dataProvider,
