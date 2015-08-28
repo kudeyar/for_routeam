@@ -1,0 +1,1072 @@
+2015/08/28 01:03:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.test' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `test`.
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 01:24:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/yiistart/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/admin
+---
+2015/08/28 10:49:28 [error] [php] Undefined variable: model (/var/www/yiistart/blog/protected/views/event/index.php:35)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(128): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): EventController->filterAccessControl()
+#9 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#12 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#13 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/event/index
+in /var/www/yiistart/blog/protected/views/event/index.php (35)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (128)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 10:49:50 [error] [php] Undefined variable: model (/var/www/yiistart/blog/protected/views/event/index.php:37)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(128): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): EventController->filterAccessControl()
+#9 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#12 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#13 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/event/index
+in /var/www/yiistart/blog/protected/views/event/index.php (37)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (128)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 10:50:48 [error] [php] Undefined variable: model (/var/www/yiistart/blog/protected/views/event/index.php:36)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(128): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): EventController->filterAccessControl()
+#9 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#12 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#13 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/event/index
+in /var/www/yiistart/blog/protected/views/event/index.php (36)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (128)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 10:53:22 [error] [php] Undefined variable: model (/var/www/yiistart/blog/protected/views/event/index.php:36)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(128): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): EventController->filterAccessControl()
+#9 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#12 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#13 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/event/index
+in /var/www/yiistart/blog/protected/views/event/index.php (36)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (128)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 10:54:57 [error] [php] Undefined variable: model (/var/www/yiistart/blog/protected/views/event/index.php:36)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(128): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): EventController->filterAccessControl()
+#9 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#12 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#13 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/event/index
+in /var/www/yiistart/blog/protected/views/event/index.php (36)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (128)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 11:04:40 [error] [exception.CException] exception 'CException' with message 'Property "CGridView.dvideataProvider" is not defined.' in /var/www/yiistart/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('dvideataProvide...', Object(CActiveDataProvider))
+#1 /var/www/yiistart/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(EventController), 'zii.widgets.gri...', Array)
+#2 /var/www/yiistart/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /var/www/yiistart/blog/protected/views/event/index.php(29): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /var/www/yiistart/yii/framework/web/CBaseController.php(126): require('/var/www/yiista...')
+#5 /var/www/yiistart/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yiista...', Array, true)
+#6 /var/www/yiistart/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yiista...', Array, true)
+#7 /var/www/yiistart/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#8 /var/www/yiistart/blog/protected/controllers/EventController.php(133): CController->render('index', Array)
+#9 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#10 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/yiistart/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/yiistart/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#19 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/index')
+#20 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#21 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/event/index
+---
+2015/08/28 11:04:59 [error] [exception.CException] exception 'CException' with message 'Property "CGridView.dvideataProvider" is not defined.' in /var/www/yiistart/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('dvideataProvide...', Object(CActiveDataProvider))
+#1 /var/www/yiistart/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(EventController), 'zii.widgets.gri...', Array)
+#2 /var/www/yiistart/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /var/www/yiistart/blog/protected/views/event/index.php(52): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /var/www/yiistart/yii/framework/web/CBaseController.php(126): require('/var/www/yiista...')
+#5 /var/www/yiistart/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yiista...', Array, true)
+#6 /var/www/yiistart/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yiista...', Array, true)
+#7 /var/www/yiistart/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#8 /var/www/yiistart/blog/protected/controllers/EventController.php(133): CController->render('index', Array)
+#9 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#10 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/yiistart/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/yiistart/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#19 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/index')
+#20 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#21 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/event/index
+---
+2015/08/28 11:09:17 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "id".' in /var/www/yiistart/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/yiistart/blog/protected/views/event/_search.php(22): CComponent->__call('id', Array)
+#1 /var/www/yiistart/blog/protected/views/event/_search.php(22): CActiveForm->id(Object(Event), 'datetimepicker4')
+#2 /var/www/yiistart/yii/framework/web/CBaseController.php(126): require('/var/www/yiista...')
+#3 /var/www/yiistart/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yiista...', Array, true)
+#4 /var/www/yiistart/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yiista...', Array, true)
+#5 /var/www/yiistart/blog/protected/views/event/index.php(36): CController->renderPartial('_search', Array)
+#6 /var/www/yiistart/yii/framework/web/CBaseController.php(126): require('/var/www/yiista...')
+#7 /var/www/yiistart/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yiista...', Array, true)
+#8 /var/www/yiistart/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yiista...', Array, true)
+#9 /var/www/yiistart/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#10 /var/www/yiistart/blog/protected/controllers/EventController.php(133): CController->render('index', Array)
+#11 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#12 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/yiistart/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/yiistart/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#21 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/index')
+#22 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#23 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php/event/index
+---
+2015/08/28 11:16:20 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /var/www/yiistart/yii/framework/zii/widgets/CBaseListView.php:123
+Stack trace:
+#0 /var/www/yiistart/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#1 /var/www/yiistart/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /var/www/yiistart/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /var/www/yiistart/blog/protected/views/event/index.php(52): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /var/www/yiistart/yii/framework/web/CBaseController.php(126): require('/var/www/yiista...')
+#5 /var/www/yiistart/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yiista...', Array, true)
+#6 /var/www/yiistart/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yiista...', Array, true)
+#7 /var/www/yiistart/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#8 /var/www/yiistart/blog/protected/controllers/EventController.php(133): CController->render('index', Array)
+#9 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#10 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/yiistart/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/yiistart/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#19 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/index')
+#20 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#21 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/event/index?Event%5BDATE%5D=&yt0=Search
+HTTP_REFERER=http://yiistart.dev/index.php/event/index?Event%5BDATE%5D=28.08.2015+11%3A13&yt0=Search
+---
+2015/08/28 11:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "result.php".' in /var/www/yiistart/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(270): CController->missingAction('result.php')
+#1 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result.php')
+#2 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result.ph...')
+#3 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/event/result.php
+HTTP_REFERER=http://yiistart.dev/index.php/event/index?Event%5BDATE%5D=&yt0=Search
+---
+2015/08/28 11:23:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "result.php".' in /var/www/yiistart/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(270): CController->missingAction('result.php')
+#1 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result.php')
+#2 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result.ph...')
+#3 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/event/result.php
+HTTP_REFERER=http://yiistart.dev/index.php/event/index?Event%5BDATE%5D=&yt0=Search
+---
+2015/08/28 11:31:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "result.php".' in /var/www/yiistart/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(270): CController->missingAction('result.php')
+#1 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result.php')
+#2 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result.ph...')
+#3 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/event/result.php
+HTTP_REFERER=http://yiistart.dev/index.php/event/index?Event%5BDATE%5D=&yt0=Search
+---
+2015/08/28 11:36:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "result.php".' in /var/www/yiistart/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(270): CController->missingAction('result.php')
+#1 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result.php')
+#2 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result.ph...')
+#3 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/event/result.php
+HTTP_REFERER=http://yiistart.dev/index.php/event/index?Event%5BDATE%5D=&yt0=Search
+---
+2015/08/28 11:40:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "result.php".' in /var/www/yiistart/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(270): CController->missingAction('result.php')
+#1 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result.php')
+#2 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result.ph...')
+#3 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/event/result.php
+HTTP_REFERER=http://yiistart.dev/index.php/event/index
+---
+2015/08/28 11:43:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "result.php".' in /var/www/yiistart/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(270): CController->missingAction('result.php')
+#1 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result.php')
+#2 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result.ph...')
+#3 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/event/result.php
+HTTP_REFERER=http://yiistart.dev/index.php/event/index
+---
+2015/08/28 11:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "result.php".' in /var/www/yiistart/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(270): CController->missingAction('result.php')
+#1 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result.php')
+#2 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result.ph...')
+#3 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/event/result.php
+HTTP_REFERER=http://yiistart.dev/index.php/event/index
+---
+2015/08/28 11:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "result".' in /var/www/yiistart/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(270): CController->missingAction('result')
+#1 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#2 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#3 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/event/result
+HTTP_REFERER=http://yiistart.dev/index.php/event/index
+---
+2015/08/28 11:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "result".' in /var/www/yiistart/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(270): CController->missingAction('result')
+#1 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#2 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#3 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/event/result
+HTTP_REFERER=http://yiistart.dev/index.php/event/index
+---
+2015/08/28 11:47:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "result".' in /var/www/yiistart/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(270): CController->missingAction('result')
+#1 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#2 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#3 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/event/result
+---
+2015/08/28 11:47:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yiistart/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yiistart/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#9 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/event/result
+---
+2015/08/28 11:47:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yiistart/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yiistart/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#9 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/event/result
+HTTP_REFERER=http://yiistart.dev/index.php/event/index
+---
+2015/08/28 11:48:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yiistart/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yiistart/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#9 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/event/result
+HTTP_REFERER=http://yiistart.dev/index.php/event/index
+---
+2015/08/28 11:52:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yiistart/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yiistart/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#9 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/event/result
+HTTP_REFERER=http://yiistart.dev/index.php/event/index
+---
+2015/08/28 11:52:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yiistart/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yiistart/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#9 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/event/result
+---
+2015/08/28 11:52:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yiistart/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yiistart/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#9 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/event/result
+---
+2015/08/28 11:55:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yiistart/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yiistart/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#9 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/event/result
+---
+2015/08/28 11:55:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yiistart/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yiistart/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#9 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/event/result
+---
+2015/08/28 11:55:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yiistart/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yiistart/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yiistart/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#9 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/event/result
+---
+2015/08/28 12:03:54 [error] [php] Object of class Event could not be converted to string (/var/www/yiistart/blog/protected/views/event/index.php:40)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(133): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#9 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/event/index
+in /var/www/yiistart/blog/protected/views/event/index.php (40)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (133)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 12:04:23 [error] [php] Object of class Event could not be converted to string (/var/www/yiistart/blog/protected/views/event/index.php:40)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(133): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#9 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/event/index
+in /var/www/yiistart/blog/protected/views/event/index.php (40)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (133)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 12:10:52 [error] [php] Object of class Event could not be converted to string (/var/www/yiistart/blog/protected/views/event/index.php:40)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(133): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#9 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/event/index
+in /var/www/yiistart/blog/protected/views/event/index.php (40)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (133)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 12:15:59 [error] [php] Object of class Event could not be converted to string (/var/www/yiistart/blog/protected/views/event/index.php:40)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(133): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#9 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/event/index
+in /var/www/yiistart/blog/protected/views/event/index.php (40)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (133)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 12:21:28 [error] [php] Undefined variable: modell (/var/www/yiistart/blog/protected/views/event/index.php:40)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(133): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#9 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/event/index
+in /var/www/yiistart/blog/protected/views/event/index.php (40)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (133)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 12:33:11 [error] [php] Object of class Event could not be converted to string (/var/www/yiistart/blog/protected/views/event/index.php:40)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(133): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#9 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/event/index
+in /var/www/yiistart/blog/protected/views/event/index.php (40)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (133)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 12:58:19 [error] [exception.CException] exception 'CException' with message 'Property "Event.model" is not defined.' in /var/www/yiistart/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yiistart/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('model')
+#1 /var/www/yiistart/blog/protected/controllers/EventController.php(154): CActiveRecord->__get('model')
+#2 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionResult()
+#3 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#9 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/event/result
+HTTP_REFERER=http://yiistart.dev/index.php/event/index?Event%5BDATE%5D=18.08.2015+12%3A40&yt0=Search
+---
+2015/08/28 12:58:27 [error] [exception.CException] exception 'CException' with message 'Property "Event.model" is not defined.' in /var/www/yiistart/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yiistart/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('model')
+#1 /var/www/yiistart/blog/protected/controllers/EventController.php(154): CActiveRecord->__get('model')
+#2 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionResult()
+#3 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#9 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/event/result
+HTTP_REFERER=http://yiistart.dev/index.php/event/index
+---
+2015/08/28 12:58:48 [error] [exception.CException] exception 'CException' with message 'Property "Event.model" is not defined.' in /var/www/yiistart/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yiistart/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('model')
+#1 /var/www/yiistart/blog/protected/controllers/EventController.php(154): CActiveRecord->__get('model')
+#2 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionResult()
+#3 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('result')
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/result')
+#9 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/event/result
+---
+2015/08/28 12:59:05 [error] [php] Trying to get property of non-object (/var/www/yiistart/blog/protected/controllers/EventController.php:153)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/event/result
+in /var/www/yiistart/blog/protected/controllers/EventController.php (153)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 13:09:59 [error] [php] Undefined index: Event (/var/www/yiistart/blog/protected/controllers/EventController.php:156)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/event/result
+in /var/www/yiistart/blog/protected/controllers/EventController.php (156)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 15:41:10 [error] [exception.CException] exception 'CException' with message 'Property "CGridView.style" is not defined.' in /var/www/yiistart/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('style', 'display:none')
+#1 /var/www/yiistart/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(EventController), 'zii.widgets.gri...', Array)
+#2 /var/www/yiistart/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /var/www/yiistart/blog/protected/views/event/index.php(77): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /var/www/yiistart/yii/framework/web/CBaseController.php(126): require('/var/www/yiista...')
+#5 /var/www/yiistart/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yiista...', Array, true)
+#6 /var/www/yiistart/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yiista...', Array, true)
+#7 /var/www/yiistart/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#8 /var/www/yiistart/blog/protected/controllers/EventController.php(124): CController->render('index', Array)
+#9 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#10 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#15 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/index')
+#16 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#17 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/event/index
+---
+2015/08/28 15:41:32 [error] [exception.CException] exception 'CException' with message 'Property "CGridView.class" is not defined.' in /var/www/yiistart/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('class', 'hidden')
+#1 /var/www/yiistart/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(EventController), 'zii.widgets.gri...', Array)
+#2 /var/www/yiistart/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /var/www/yiistart/blog/protected/views/event/index.php(77): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /var/www/yiistart/yii/framework/web/CBaseController.php(126): require('/var/www/yiista...')
+#5 /var/www/yiistart/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yiista...', Array, true)
+#6 /var/www/yiistart/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yiista...', Array, true)
+#7 /var/www/yiistart/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#8 /var/www/yiistart/blog/protected/controllers/EventController.php(124): CController->render('index', Array)
+#9 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#10 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#15 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('event/index')
+#16 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#17 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/event/index
+---
+2015/08/28 15:49:00 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "event/index".' in /var/www/yiistart/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(782): CController->renderPartial('event/index', NULL, true)
+#1 /var/www/yiistart/blog/protected/controllers/SiteController.php(32): CController->render('event/index')
+#2 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiistart/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiistart/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController(false)
+#8 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiistart/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php
+---
+2015/08/28 16:40:12 [error] [php] Undefined variable: modelCreate (/var/www/yiistart/blog/protected/views/event/index.php:51)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(131): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#9 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/views/event/index.php (51)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:34:40 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:34:41 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:35:22 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:35:23 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:36:01 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:36:06 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:36:50 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:37:14 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:37:30 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:38:03 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:38:05 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:38:56 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:38:58 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:39:01 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:39:42 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:40:41 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:41:21 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:43:57 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:44:15 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:44:33 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:47:18 [error] [php] Undefined variable: modelCreate (/var/www/yiistart/blog/protected/views/event/index.php:51)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(134): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#9 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/views/event/index.php (51)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (134)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:47:40 [error] [php] Undefined variable: modelCreate (/var/www/yiistart/blog/protected/views/event/index.php:51)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(134): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#9 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/views/event/index.php (51)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (134)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:47:59 [error] [php] Undefined variable: modelCreate (/var/www/yiistart/blog/protected/views/event/index.php:51)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(137): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#9 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/views/event/index.php (51)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (137)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:48:14 [error] [php] Undefined variable: modelCreate (/var/www/yiistart/blog/protected/views/event/index.php:51)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/CController.php(869): EventController->renderFile()
+#1 /var/www/yiistart/yii/framework/web/CController.php(782): EventController->renderPartial()
+#2 /var/www/yiistart/blog/protected/controllers/EventController.php(137): EventController->render()
+#3 /var/www/yiistart/yii/framework/web/actions/CInlineAction.php(49): EventController->actionIndex()
+#4 /var/www/yiistart/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#6 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#8 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#9 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/views/event/index.php (51)
+in /var/www/yiistart/blog/protected/controllers/EventController.php (137)
+in /var/www/yiistart/blog/index.php (13)
+2015/08/28 17:49:24 [error] [php] Undefined variable: modelCreare (/var/www/yiistart/blog/protected/controllers/EventController.php:131)
+Stack trace:
+#0 /var/www/yiistart/yii/framework/web/filters/CFilterChain.php(133): EventController->runAction()
+#1 /var/www/yiistart/yii/framework/web/CController.php(291): CFilterChain->run()
+#2 /var/www/yiistart/yii/framework/web/CController.php(265): EventController->runActionWithFilters()
+#3 /var/www/yiistart/yii/framework/web/CWebApplication.php(282): EventController->run()
+#4 /var/www/yiistart/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiistart/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiistart/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/yiistart/blog/protected/controllers/EventController.php (131)
+in /var/www/yiistart/blog/index.php (13)
